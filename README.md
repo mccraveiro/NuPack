@@ -3,8 +3,7 @@ NuPack
 
 NuPack repackaging calculator
 
-Instructions
-============
+## Instructions
 
 1. Please answer the following question using JavaScript without using any third party plugins or libraries, with the exception of Jasmine, Mocha, etc for unit tests.
 
@@ -13,8 +12,7 @@ Instructions
 3. Please submit via publicly accessible repo so that we can review your commits.
 
 
-Pricing problem
-===============
+## Pricing problem
 
 NuPack is responsible for taking existing products and repackaging them for sale at electronic stores like Future Shop and Best Buy. Companies will phone up NuPack, explain the process and NuPack needs to quickly give them an estimate of how much it will cost. Different markups to the job:
 
@@ -34,26 +32,33 @@ The flat markup is calculated first and then all other markups are calculated on
 
 For example...
 
-Input 1:
---------
-`$1299.99`  
-`3 people`  
-`food`  
+### Input 1:
+$1299.99  
+3 people  
+food  
 
 - Output: `$1591.58`
 
-Input 2:
---------
-`$5432.00`  
-`1 person`  
-`drugs`  
+### Input 2:
+$5432.00  
+1 person  
+drugs  
 
 - Output: `$6199.81`
 
-Input 3:
---------
-`$12456.95`  
-`4 people`  
-`books`  
+### Input 3:
+$12456.95  
+4 people  
+books  
 
 - Output: `$13707.63`
+
+## Usage
+
+```javascript
+var example = new NuPack();
+example.setBaseCost(1299.99);
+example.setNumberOfPeople(3);
+example.setTypeOfProduct("food");
+example.getFinalCost();
+```

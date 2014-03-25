@@ -1,0 +1,19 @@
+{
+  "name": "NuPack",
+  "version": "0.1.0",
+  "description": "NuPack repackaging calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mccraveiro/NuPack.git"
+  },
+  "author": "Mateus Craveiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mccraveiro/NuPack/issues"
+  },
+  "homepage": "https://github.com/mccraveiro/NuPack"
+}
